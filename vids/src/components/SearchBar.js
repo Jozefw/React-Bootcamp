@@ -14,7 +14,6 @@ class SearchBar extends Component{
     }
     searchSubmit(event){
         event.preventDefault();
-        console.log(this.props)
         this.props.formSearch(this.state.videoInput)
     }
     render(){

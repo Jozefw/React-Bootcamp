@@ -3,7 +3,6 @@ import Unsplash from '../Api/Unsplash';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
-
 class App extends Component{
     constructor(props){
         super(props);
